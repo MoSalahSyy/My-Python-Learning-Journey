@@ -1,0 +1,45 @@
+number=str(input("请输入一段数字："))
+length=len(number)
+a=0
+b=0
+c=0
+d=0
+e=0
+f=0
+g=0
+h=0
+j=0
+k=0
+for i in range(0,length):
+    if number[i]==str(0):
+        a=a+1
+    elif number[i]==str(1):
+        b=b+1
+    elif number[i]==str(2):
+        c=c+1
+    elif number[i]==str(3):
+        d=d+1
+    elif number[i]==str(4):
+        e=e+1
+    elif number[i]==str(5):
+        f=f+1
+    elif number[i]==str(6):
+        g=g+1
+    elif number[i]==str(7):
+        h=h+1
+    elif number[i]==str(8):
+        j=j+1
+    elif number[i]==str(9):
+        k=k+1
+print(a)
+print("这段数字的位数是"+str(length))
+print("0出现了"+str(a)+"次")
+print("1出现了"+str(b)+"次")
+print("2出现了"+str(c)+"次")
+print("3出现了"+str(d)+"次")
+print("4出现了"+str(e)+"次")
+print("5出现了"+str(f)+"次")
+print("6出现了"+str(g)+"次")
+print("7出现了"+str(h)+"次")
+print("8出现了"+str(j)+"次")
+print("9出现了"+str(k)+"次")
