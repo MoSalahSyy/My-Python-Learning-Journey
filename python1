@@ -1,0 +1,12 @@
+depth=float(input("请输入井的深度："))
+if depth<=1:
+    print("需要1天")
+else:
+    jump=1
+    long=1
+while long<depth:
+    jump=jump+1
+    long=long*2+2
+    if long>=depth:
+        break
+print("需要"+str(jump)+"天")
